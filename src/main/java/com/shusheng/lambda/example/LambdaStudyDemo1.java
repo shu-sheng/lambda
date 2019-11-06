@@ -1,14 +1,15 @@
-package com.shusheng.tihuzhai.example;
+package com.shusheng.lambda.example;
 
-import com.shusheng.tihuzhai.functionalinterface.MathAdd;
-import com.shusheng.tihuzhai.functionalinterface.MathMultiplication;
-import com.shusheng.tihuzhai.functionalinterface.MathSubtraction;
+
+import com.shusheng.lambda.functionalinterface.demo1.MathAdd;
+import com.shusheng.lambda.functionalinterface.demo1.MathMultiplication;
+import com.shusheng.lambda.functionalinterface.demo1.MathSubtraction;
 
 /**
  * @Description Lambda表达式用法
  * @Author Created by wupeng.
  * @Email eric_wu_peng@126.com
- * @Date 2017-01-17
+ * @Date 2019-11-06
  */
 public class LambdaStudyDemo1 {
 
@@ -21,7 +22,7 @@ public class LambdaStudyDemo1 {
 
         int x = ma.add(1,2);
         int y = ms.subtraction(2, 3);
-        int z = mm.subtraction(3,4);
+        int z = mm.multiplication(3, 4);
 
         System.out.print(x+":"+y+":"+z);
     }
